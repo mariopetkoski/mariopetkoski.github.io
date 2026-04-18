@@ -183,7 +183,7 @@ export default function App() {
 
         <section className="section detail-section" id="interests">
           <div className="section-header">
-            <p className="section-kicker">02 / interests</p>
+            <p className="section-kicker">02 / focus</p>
             <p className="section-note">Current focus, curiosities, and active threads</p>
           </div>
 
@@ -223,7 +223,7 @@ export default function App() {
         <section className="section detail-section" id="writing">
           <div className="section-header">
             <p className="section-kicker">04 / writing</p>
-            <p className="section-note">Published writing and essays</p>
+            <p className="section-note">Published writing and blog posts</p>
           </div>
 
           <ul className="link-list">

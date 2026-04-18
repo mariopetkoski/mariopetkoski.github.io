@@ -82,8 +82,8 @@ export const interestGroups: InterestGroup[] = [
     items: [
       'Startups and entrepreneurship',
       'Developer tools, prototyping, and agentic engineering',
-      'Community building',
-      'Fast, minimal products',
+      'Communities',
+      'Fast and minimal products',
     ],
   },
   {
@@ -114,7 +114,7 @@ export const timelineEntries: TimelineEntry[] = [
   {
     type: 'education',
     title: "Bachelor's in Software Engineering and Information Systems",
-    titleHref: 'https://www.finki.ukim.mk/',
+    titleHref: 'https://www.finki.ukim.mk/en',
     organization: 'Faculty of Computer Science and Engineering, Ss. Cyril and Methodius University in Skopje',
     period: '2020 - 2024',
   },
@@ -125,6 +125,6 @@ export const linkEntries: LinkEntry[] = [
     label: 'The Agent Assembly Line',
     href: 'https://medium.com/loka-engineering/the-agent-assembly-line-eabc3e95263d',
     meta: 'Published on Medium for Loka Engineering.',
-    kind: 'essay',
+    kind: 'blog post',
   },
 ];

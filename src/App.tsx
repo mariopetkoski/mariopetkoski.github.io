@@ -76,18 +76,22 @@ function TimelineRow({ entry }: { entry: TimelineEntry }) {
       </div>
       <div className="timeline-body">
         <p className="timeline-title">
-          <TimelineText href={entry.titleHref}>{entry.title}</TimelineText>
-          {!isEducation ? (
+          {isEducation ? (
             <TimelineText href={entry.organizationHref} className="timeline-organization">
               {entry.organization}
             </TimelineText>
-          ) : null}
+          ) : (
+            <>
+              <TimelineText href={entry.titleHref}>{entry.title}</TimelineText>
+              <TimelineText href={entry.organizationHref} className="timeline-organization">
+                {entry.organization}
+              </TimelineText>
+            </>
+          )}
         </p>
         {isEducation ? (
           <p className="timeline-detail timeline-detail--secondary">
-            <TimelineText href={entry.organizationHref} className="timeline-organization">
-              {entry.organization}
-            </TimelineText>
+            <TimelineText href={entry.titleHref}>{entry.title}</TimelineText>
           </p>
         ) : null}
         {entry.detail ? <p className="timeline-detail">{entry.detail}</p> : null}

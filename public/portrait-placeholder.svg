@@ -1,0 +1,118 @@
+<svg width="960" height="1200" viewBox="0 0 960 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="1200" fill="#070707"/>
+  <rect x="36" y="36" width="888" height="1128" stroke="#2B2B2B" stroke-width="2"/>
+  <path d="M36 146H924" stroke="#232323" stroke-width="2"/>
+  <path d="M36 1062H924" stroke="#232323" stroke-width="2"/>
+  <path d="M170 36V1164" stroke="#1B1B1B" stroke-width="2"/>
+  <path d="M790 36V1164" stroke="#1B1B1B" stroke-width="2"/>
+  <rect x="264" y="226" width="432" height="560" rx="12" fill="#0E0E0E" stroke="#2D2D2D" stroke-width="2"/>
+  <circle cx="480" cy="378" r="102" fill="#141414" stroke="#303030" stroke-width="2"/>
+  <path d="M334 730C345 602 404 538 480 538C556 538 615 602 626 730" fill="#141414" stroke="#303030" stroke-width="2"/>
+  <path d="M264 860H696" stroke="#262626" stroke-width="2"/>
+  <path d="M264 908H696" stroke="#262626" stroke-width="2"/>
+  <path d="M264 956H578" stroke="#262626" stroke-width="2"/>
+  <text x="72" y="94" fill="#9B9B9B" font-family="IBM Plex Mono, monospace" font-size="28" letter-spacing="2">PORTRAIT / PLACEHOLDER</text>
+  <text x="72" y="1110" fill="#6B6B6B" font-family="IBM Plex Mono, monospace" font-size="24" letter-spacing="2">DROP YOUR PROCESSED IMAGE IN /PUBLIC AND UPDATE SRC/CONTENT</text>
+  <g opacity="0.18" stroke="#FFFFFF">
+    <path d="M0 0H960"/>
+    <path d="M0 12H960"/>
+    <path d="M0 24H960"/>
+    <path d="M0 36H960"/>
+    <path d="M0 48H960"/>
+    <path d="M0 60H960"/>
+    <path d="M0 72H960"/>
+    <path d="M0 84H960"/>
+    <path d="M0 96H960"/>
+    <path d="M0 108H960"/>
+    <path d="M0 120H960"/>
+    <path d="M0 132H960"/>
+    <path d="M0 144H960"/>
+    <path d="M0 156H960"/>
+    <path d="M0 168H960"/>
+    <path d="M0 180H960"/>
+    <path d="M0 192H960"/>
+    <path d="M0 204H960"/>
+    <path d="M0 216H960"/>
+    <path d="M0 228H960"/>
+    <path d="M0 240H960"/>
+    <path d="M0 252H960"/>
+    <path d="M0 264H960"/>
+    <path d="M0 276H960"/>
+    <path d="M0 288H960"/>
+    <path d="M0 300H960"/>
+    <path d="M0 312H960"/>
+    <path d="M0 324H960"/>
+    <path d="M0 336H960"/>
+    <path d="M0 348H960"/>
+    <path d="M0 360H960"/>
+    <path d="M0 372H960"/>
+    <path d="M0 384H960"/>
+    <path d="M0 396H960"/>
+    <path d="M0 408H960"/>
+    <path d="M0 420H960"/>
+    <path d="M0 432H960"/>
+    <path d="M0 444H960"/>
+    <path d="M0 456H960"/>
+    <path d="M0 468H960"/>
+    <path d="M0 480H960"/>
+    <path d="M0 492H960"/>
+    <path d="M0 504H960"/>
+    <path d="M0 516H960"/>
+    <path d="M0 528H960"/>
+    <path d="M0 540H960"/>
+    <path d="M0 552H960"/>
+    <path d="M0 564H960"/>
+    <path d="M0 576H960"/>
+    <path d="M0 588H960"/>
+    <path d="M0 600H960"/>
+    <path d="M0 612H960"/>
+    <path d="M0 624H960"/>
+    <path d="M0 636H960"/>
+    <path d="M0 648H960"/>
+    <path d="M0 660H960"/>
+    <path d="M0 672H960"/>
+    <path d="M0 684H960"/>
+    <path d="M0 696H960"/>
+    <path d="M0 708H960"/>
+    <path d="M0 720H960"/>
+    <path d="M0 732H960"/>
+    <path d="M0 744H960"/>
+    <path d="M0 756H960"/>
+    <path d="M0 768H960"/>
+    <path d="M0 780H960"/>
+    <path d="M0 792H960"/>
+    <path d="M0 804H960"/>
+    <path d="M0 816H960"/>
+    <path d="M0 828H960"/>
+    <path d="M0 840H960"/>
+    <path d="M0 852H960"/>
+    <path d="M0 864H960"/>
+    <path d="M0 876H960"/>
+    <path d="M0 888H960"/>
+    <path d="M0 900H960"/>
+    <path d="M0 912H960"/>
+    <path d="M0 924H960"/>
+    <path d="M0 936H960"/>
+    <path d="M0 948H960"/>
+    <path d="M0 960H960"/>
+    <path d="M0 972H960"/>
+    <path d="M0 984H960"/>
+    <path d="M0 996H960"/>
+    <path d="M0 1008H960"/>
+    <path d="M0 1020H960"/>
+    <path d="M0 1032H960"/>
+    <path d="M0 1044H960"/>
+    <path d="M0 1056H960"/>
+    <path d="M0 1068H960"/>
+    <path d="M0 1080H960"/>
+    <path d="M0 1092H960"/>
+    <path d="M0 1104H960"/>
+    <path d="M0 1116H960"/>
+    <path d="M0 1128H960"/>
+    <path d="M0 1140H960"/>
+    <path d="M0 1152H960"/>
+    <path d="M0 1164H960"/>
+    <path d="M0 1176H960"/>
+    <path d="M0 1188H960"/>
+  </g>
+</svg>

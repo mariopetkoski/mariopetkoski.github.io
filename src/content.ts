@@ -114,8 +114,8 @@ export const timelineEntries: TimelineEntry[] = [
   {
     type: 'education',
     title: "Bachelor's in Software Engineering and Information Systems",
-    titleHref: 'https://www.finki.ukim.mk/en',
     organization: 'Faculty of Computer Science and Engineering, Ss. Cyril and Methodius University in Skopje',
+    organizationHref: 'https://www.finki.ukim.mk/en',
     period: '2020 - 2024',
   },
 ];

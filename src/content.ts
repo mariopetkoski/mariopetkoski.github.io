@@ -54,7 +54,7 @@ export const profile: Profile = {
   intro:
     'I care deeply about how LLMs and ML models work under the hood, and even more about the systems and products built on top of them.',
   subIntro:
-    'My work focuses on applied AI across agentic workflows, model serving, experimentation, tuning, and cloud deployment, backed by strong software and data engineering.',
+    'My work focuses on applied AI across agentic workflows, model serving, experimentation, tuning, and cloud deployment, with a strong foundation in software and data engineering.',
   extraIntro:
     'I stay close to the latest developments in tech and AI.',
   contactNote:

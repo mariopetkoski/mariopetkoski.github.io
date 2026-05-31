@@ -32,7 +32,7 @@ export type InterestGroup = {
 };
 
 export type TimelineEntry = {
-  type: 'work' | 'education';
+  type: 'work' | 'education' | 'community';
   title: string;
   titleHref?: string;
   organization: string;
@@ -50,13 +50,13 @@ export type LinkEntry = {
 
 export const profile: Profile = {
   name: 'Mario Petkoski',
-  role: 'AI/ML engineer working at the intersection of research and engineering.',
+  role: 'AI/ML engineer and Cursor Ambassador working at the intersection of research and engineering.',
   intro:
     'I care deeply about how LLMs and ML models work under the hood, and even more about the systems and products built on top of them.',
   subIntro:
     'My work focuses on applied AI across agentic workflows, model serving, experimentation, tuning, and cloud deployment, with a strong foundation in software and data engineering.',
   extraIntro:
-    'I stay close to the latest developments in tech and AI.',
+    'Always close to the latest developments in tech and AI.',
   contactNote:
     "If you'd like to say hi or talk about projects and ideas, reach out on X or LinkedIn.",
   location: 'Skopje / Remote',
@@ -104,6 +104,15 @@ export const interestGroups: InterestGroup[] = [
 
 export const timelineEntries: TimelineEntry[] = [
   {
+    type: 'community',
+    title: 'Cursor Ambassador',
+    titleHref: 'https://cursor.com/ambassadors',
+    organization: 'Cursor',
+    organizationHref: 'https://cursor.com/',
+    period: 'May 2026 - Present',
+    detail: 'Hosting Cursor community events and helping builders explore AI-powered software development.',
+  },
+  {
     type: 'work',
     title: 'Advanced Machine Learning Engineer',
     organization: 'Loka',
@@ -126,5 +135,14 @@ export const linkEntries: LinkEntry[] = [
     href: 'https://medium.com/loka-engineering/the-agent-assembly-line-eabc3e95263d',
     meta: 'Published on Medium for Loka Engineering.',
     kind: 'blog post',
+  },
+];
+
+export const eventEntries: LinkEntry[] = [
+  {
+    label: 'Cafe Cursor Skopje',
+    href: 'https://luma.com/sh6vn3vd',
+    meta: 'Hosted in Skopje as part of the Cursor Community.',
+    kind: 'event',
   },
 ];

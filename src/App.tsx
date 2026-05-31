@@ -1,8 +1,10 @@
 import {
+  eventEntries,
   interestGroups,
   linkEntries,
   profile,
   timelineEntries,
+  type LinkEntry,
   type PrimaryLink,
   type TimelineEntry,
 } from './content';
@@ -97,6 +99,27 @@ function TimelineRow({ entry }: { entry: TimelineEntry }) {
         {entry.detail ? <p className="timeline-detail">{entry.detail}</p> : null}
       </div>
     </li>
+  );
+}
+
+function LinkList({ entries }: { entries: LinkEntry[] }) {
+  return (
+    <ul className="link-list">
+      {entries.map((entry) => (
+        <li key={entry.label} className="link-row">
+          <a
+            className="link-row__anchor"
+            href={entry.href}
+            target={entry.href.startsWith('http') ? '_blank' : undefined}
+            rel={entry.href.startsWith('http') ? 'noreferrer' : undefined}
+          >
+            <span className="link-row__label">{entry.label}</span>
+            <span className="link-row__kind">{entry.kind}</span>
+          </a>
+          <p className="link-row__meta">{entry.meta}</p>
+        </li>
+      ))}
+    </ul>
   );
 }
 
@@ -226,22 +249,16 @@ export default function App() {
             <p className="section-note">Published writing and blog posts</p>
           </div>
 
-          <ul className="link-list">
-            {linkEntries.map((entry) => (
-              <li key={entry.label} className="link-row">
-                <a
-                  className="link-row__anchor"
-                  href={entry.href}
-                  target={entry.href.startsWith('http') ? '_blank' : undefined}
-                  rel={entry.href.startsWith('http') ? 'noreferrer' : undefined}
-                >
-                  <span className="link-row__label">{entry.label}</span>
-                  <span className="link-row__kind">{entry.kind}</span>
-                </a>
-                <p className="link-row__meta">{entry.meta}</p>
-              </li>
-            ))}
-          </ul>
+          <LinkList entries={linkEntries} />
+        </section>
+
+        <section className="section detail-section" id="events">
+          <div className="section-header">
+            <p className="section-kicker">05 / events</p>
+            <p className="section-note">Meetups, community events, and hosted sessions</p>
+          </div>
+
+          <LinkList entries={eventEntries} />
         </section>
       </main>
 

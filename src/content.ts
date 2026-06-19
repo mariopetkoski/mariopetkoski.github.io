@@ -90,7 +90,7 @@ export const interestGroups: InterestGroup[] = [
     title: 'What I Build',
     items: [
       'Production-ready agentic systems',
-      'Fine-tuning & aligning large language models',
+      'Fine-tuning & alignment of large language models',
       'RAG pipelines, MCP servers & natural-language query interfaces (Text-to-SQL)',
       'LLM observability, tracing & cost optimization',
       'Data & ML infrastructure on AWS',

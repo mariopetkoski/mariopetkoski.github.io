@@ -87,13 +87,13 @@ export const interestGroups: InterestGroup[] = [
     ],
   },
   {
-    title: 'Tech Stack',
+    title: 'What I Build',
     items: [
-      'Python',
-      'Strands Agents | LangGraph | Langfuse | MCP',
-      'HuggingFace | Transformers',
-      'FastAPI',
-      'AWS',
+      'Production-ready agentic systems',
+      'Fine-tuning & aligning large language models',
+      'RAG pipelines, MCP servers & natural-language query interfaces (Text-to-SQL)',
+      'LLM observability, tracing & cost optimization',
+      'Data & ML infrastructure on AWS',
     ],
   },
   {

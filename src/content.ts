@@ -63,7 +63,7 @@ export const profile: Profile = {
   heroImage: {
     src: heroPortrait,
     alt: 'ASCII-rendered portrait of Mario Petkoski.',
-    treatment: 'black glass portrait',
+    treatment: 'ascii / mono portrait',
   },
   primaryLinks: [
     {

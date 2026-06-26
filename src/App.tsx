@@ -132,13 +132,13 @@ export default function App() {
       <header className="app-bar">
         <div className="page shell-row">
           <p className="app-bar__brand">mp</p>
-          <p className="app-bar__status">Liquid glass portfolio</p>
+          <p className="app-bar__status">One-page archive / v1</p>
         </div>
       </header>
 
       <main className="page">
         <section className="hero section">
-          <aside className="hero-rail liquid-panel reveal reveal-1" aria-label="Profile notes">
+          <aside className="hero-rail reveal reveal-1" aria-label="Profile notes">
             <div className="rail-block">
               <p className="section-kicker">00 / profile</p>
               <dl className="stat-list">
@@ -148,11 +148,11 @@ export default function App() {
                 </div>
                 <div>
                   <dt>mode</dt>
-                  <dd>liquid</dd>
+                  <dd>mono</dd>
                 </div>
                 <div>
                   <dt>asset</dt>
-                  <dd>glass-ready</dd>
+                  <dd>swap-ready</dd>
                 </div>
               </dl>
             </div>
@@ -162,7 +162,7 @@ export default function App() {
             </div>
           </aside>
 
-          <div className="hero-media liquid-panel reveal reveal-2">
+          <div className="hero-media reveal reveal-2">
             <figure className="media-frame">
               <img
                 src={profile.heroImage.src}
@@ -170,13 +170,13 @@ export default function App() {
                 className="media-frame__image"
               />
               <figcaption className="media-frame__caption">
-                <span>glass</span>
+                <span>output</span>
                 <span>{profile.heroImage.treatment}</span>
               </figcaption>
             </figure>
           </div>
 
-          <div className="hero-copy liquid-panel liquid-panel--dark reveal reveal-3">
+          <div className="hero-copy reveal reveal-3">
             <p className="section-kicker">01 / intro</p>
             <h1>{profile.name}</h1>
             <p className="hero-role">{profile.role}</p>
